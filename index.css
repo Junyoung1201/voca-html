@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    /* 위쪽 여백 크게 */
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #007acc;
+}
+
+.word-item {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.word-item:hover {
+    background-color: #f9f9f9;
+}
+
+.word {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #0056b3;
+}
+
+.meaning {
+    color: #555;
+    margin-top: 4px;
+}
+
+#vocaList {
+    margin-top: 10px;
+}
+#startQuizBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#startQuizBtn:hover {
+    background-color: #45a049;
+}
