@@ -18,5 +18,4 @@ const loadVocabData = () => {
         });
 };
 
-// 다른 스크립트에서 사용할 수 있도록 export
 export { loadVocabData };
